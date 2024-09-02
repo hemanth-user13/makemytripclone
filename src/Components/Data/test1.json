@@ -1,0 +1,435 @@
+{
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2024-08-31 21:40"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2024-09-01 00:45"
+          },
+          "duration": 125,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 854",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 97 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2024-09-01 16:00"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2024-09-01 10:40"
+          },
+          "duration": 640,
+          "airplane": "Boeing 777",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 23",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 818 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2024-09-01 17:16"
+          },
+          "arrival_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2024-09-01 22:50"
+          },
+          "duration": 214,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Economy",
+          "flight_number": "AS 534",
+          "ticket_also_sold_by": ["Fiji Airways"],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 191 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 915,
+          "name": "Incheon International Airport",
+          "id": "ICN",
+          "overnight": true
+        },
+        {
+          "duration": 396,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 2290,
+      "carbon_emissions": {
+        "this_flight": 1108000,
+        "typical_for_this_route": 1139000,
+        "difference_percent": -3
+      },
+      "price": 3847,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJZFc0MmFEQlRlVE5GZERSQlJTMVFjRUZDUnkwdExTMHRMUzB0TFMxNWFXNTFPRUZCUVVGQlIySlVSelJ6UVUwd2NtTkJFaEJMUlRnMU5IeExSVEl6ZkVGVE5UTTBHZ3NJODd3WEVBSWFBMVZUUkRnY2NQTzhGdz09IixbWyJQRUsiLCIyMDI0LTA4LTMxIiwiSUNOIixudWxsLCJLRSIsIjg1NCJdLFsiSUNOIiwiMjAyNC0wOS0wMSIsIlNGTyIsbnVsbCwiS0UiLCIyMyJdLFsiU0ZPIiwiMjAyNC0wOS0wMSIsIkFVUyIsbnVsbCwiQVMiLCI1MzQiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2024-08-31 21:40"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2024-09-01 00:45"
+          },
+          "duration": 125,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 854",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 97 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2024-09-01 20:00"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2024-09-01 14:40"
+          },
+          "duration": 640,
+          "airplane": "Boeing 787",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 25",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 707 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2024-09-01 17:16"
+          },
+          "arrival_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2024-09-01 22:50"
+          },
+          "duration": 214,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Economy",
+          "flight_number": "AS 534",
+          "ticket_also_sold_by": ["Fiji Airways"],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 191 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 1155,
+          "name": "Incheon International Airport",
+          "id": "ICN",
+          "overnight": true
+        },
+        {
+          "duration": 156,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 2290,
+      "carbon_emissions": {
+        "this_flight": 997000,
+        "typical_for_this_route": 1139000,
+        "difference_percent": -12
+      },
+      "price": 3847,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJZFc0MmFEQlRlVE5GZERSQlJTMVFjRUZDUnkwdExTMHRMUzB0TFMxNWFXNTFPRUZCUVVGQlIySlVSelJ6UVUwd2NtTkJFaEJMUlRnMU5IeExSVEkxZkVGVE5UTTBHZ3NJODd3WEVBSWFBMVZUUkRnY2NQTzhGdz09IixbWyJQRUsiLCIyMDI0LTA4LTMxIiwiSUNOIixudWxsLCJLRSIsIjg1NCJdLFsiSUNOIiwiMjAyNC0wOS0wMSIsIlNGTyIsbnVsbCwiS0UiLCIyNSJdLFsiU0ZPIiwiMjAyNC0wOS0wMSIsIkFVUyIsbnVsbCwiQVMiLCI1MzQiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2024-08-31 21:40"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2024-09-01 00:45"
+          },
+          "duration": 125,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 854",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 97 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2024-09-01 10:35"
+          },
+          "arrival_airport": {
+            "name": "Detroit Metropolitan Wayne County Airport",
+            "id": "DTW",
+            "time": "2024-09-01 10:55"
+          },
+          "duration": 800,
+          "airplane": "Airbus A350",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 158",
+          "ticket_also_sold_by": ["Korean Air"],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 629 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Detroit Metropolitan Wayne County Airport",
+            "id": "DTW",
+            "time": "2024-09-01 12:59"
+          },
+          "arrival_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2024-09-01 14:59"
+          },
+          "duration": 180,
+          "airplane": "Airbus A320",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 2015",
+          "ticket_also_sold_by": ["Korean Air"],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 173 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 590,
+          "name": "Incheon International Airport",
+          "id": "ICN",
+          "overnight": true
+        },
+        {
+          "duration": 124,
+          "name": "Detroit Metropolitan Wayne County Airport",
+          "id": "DTW"
+        }
+      ],
+      "total_duration": 1819,
+      "carbon_emissions": {
+        "this_flight": 900000,
+        "typical_for_this_route": 1139000,
+        "difference_percent": -21
+      },
+      "price": 3848,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJZFc0MmFEQlRlVE5GZERSQlJTMVFjRUZDUnkwdExTMHRMUzB0TFMxNWFXNTFPRUZCUVVGQlIySlVSelJ6UVUwd2NtTkJFaEpMUlRnMU5IeEVUREUxT0h4RVRESXdNVFVhQ3dqV3ZSY1FBaG9EVlZORU9CeHcxcjBYIixbWyJQRUsiLCIyMDI0LTA4LTMxIiwiSUNOIixudWxsLCJLRSIsIjg1NCJdLFsiSUNOIiwiMjAyNC0wOS0wMSIsIkRUVyIsbnVsbCwiREwiLCIxNTgiXSxbIkRUVyIsIjIwMjQtMDktMDEiLCJBVVMiLG51bGwsIkRMIiwiMjAxNSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2024-08-31 21:40"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2024-09-01 00:45"
+          },
+          "duration": 125,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 854",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 97 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2024-09-01 09:20"
+          },
+          "arrival_airport": {
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW",
+            "time": "2024-09-01 08:00"
+          },
+          "duration": 760,
+          "airplane": "Boeing 787",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 31",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 825 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW",
+            "time": "2024-09-01 10:10"
+          },
+          "arrival_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2024-09-01 11:29"
+          },
+          "duration": 79,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 814",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 57 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 515,
+          "name": "Incheon International Airport",
+          "id": "ICN",
+          "overnight": true
+        },
+        {
+          "duration": 130,
+          "name": "Dallas Fort Worth International Airport",
+          "id": "DFW"
+        }
+      ],
+      "total_duration": 1609,
+      "carbon_emissions": {
+        "this_flight": 980000,
+        "typical_for_this_route": 1139000,
+        "difference_percent": -14
+      },
+      "price": 4638,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "departure_token": "WyJDalJJZFc0MmFEQlRlVE5GZERSQlJTMVFjRUZDUnkwdExTMHRMUzB0TFMxNWFXNTFPRUZCUVVGQlIySlVSelJ6UVUwd2NtTkJFaEJMUlRnMU5IeExSVE14ZkVGQk9ERTBHZ3NJNXFZY0VBSWFBMVZUUkRnY2NPYW1IQT09IixbWyJQRUsiLCIyMDI0LTA4LTMxIiwiSUNOIixudWxsLCJLRSIsIjg1NCJdLFsiSUNOIiwiMjAyNC0wOS0wMSIsIkRGVyIsbnVsbCwiS0UiLCIzMSJdLFsiREZXIiwiMjAyNC0wOS0wMSIsIkFVUyIsbnVsbCwiQUEiLCI4MTQiXV1d"
+    }
+  ]
+}

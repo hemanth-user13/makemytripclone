@@ -1,0 +1,21 @@
+flagShiphotels
+1)https://platforms.makemytrip.com/contents/cbdc54bb-2ca1-4904-b026-7d37369f4cfa;
+2)https://platforms.makemytrip.com/contents/022d9c0e-ae81-4ab2-8b8e-948d76eb421d;
+3)https://platforms.makemytrip.com/contents/63ef6026-1674-4e06-91f8-77d868e15bcc
+
+
+barnds image
+1)https://promos.makemytrip.com/Growth/Images/B2C/Uncompressed/Artboard_travRep.png
+2)https://promos.makemytrip.com/Growth/Images/B2C/xhdpi/ic_whatsnew_flight.png
+3)https://promos.makemytrip.com/images/CDN_upload/indiannessapphome2.png
+4)https://promos.makemytrip.com/notification/xhdpi/Vande-Flight-10072020.png
+5)https://promos.makemytrip.com/Growth/Images/B2C/2x/language1@2x_20210901.png
+6)https://tripmoneycmsimgak.mmtcdn.com/img/RIL_1_468ef5d7a7.png
+7)https://tripmoneycmsimgak.mmtcdn.com/img/abhi_1_223c8a2989.png
+8)https://tripmoneycmsimgak.mmtcdn.com/img/Acko_1_a95a85f8c1.png
+9)https://tripmoneycmsimgak.mmtcdn.com/img/AA_70x70_bb9ca3d36b.jpg
+10)https://tripmoneycmsimgak.mmtcdn.com/img/Travel_Guard_Icon_02_97a71bc27f.png
+
+
+indianflag:
+https://imgak.mmtcdn.com/pwa_v3/pwa_mmt_ui_assets/in_v2.webp

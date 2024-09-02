@@ -1,0 +1,1170 @@
+{
+  "flights": [
+    {
+      "search_metadata": {
+        "id": "66d31b85fcd69effb5d2d2a8",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/a308ad8b26a7171f/66d31b85fcd69effb5d2d2a8.json",
+        "created_at": "2024-08-31 13:32:53 UTC",
+        "processed_at": "2024-08-31 13:32:53 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI0LTA4LTMxagcIARIDUEVLcgcIARIDQVVTGh4SCjIwMjQtMDktMDZqBwgBEgNBVVNyBwgBEgNQRUtCAQFIAXABmAEB",
+        "raw_html_file": "https://serpapi.com/searches/a308ad8b26a7171f/66d31b85fcd69effb5d2d2a8.html",
+        "prettify_html_file": "https://serpapi.com/searches/a308ad8b26a7171f/66d31b85fcd69effb5d2d2a8.prettify",
+        "total_time_taken": 6.33
+      },
+      "search_parameters": {
+        "engine": "google_flights",
+        "hl": "en",
+        "gl": "us",
+        "departure_id": "PEK",
+        "arrival_id": "AUS",
+        "outbound_date": "2024-08-31",
+        "return_date": "2024-09-06",
+        "currency": "USD"
+      },
+      "best_flights": [
+        {
+          "flights": [
+            {
+              "departure_airport": {
+                "name": "Beijing Capital International Airport",
+                "id": "PEK",
+                "time": "2024-08-31 21:40"
+              },
+              "arrival_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 00:45"
+              },
+              "duration": 125,
+              "airplane": "Boeing 737MAX 8 Passenger",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 854",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Wi-Fi for a fee",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Carbon emissions estimate: 97 kg"
+              ],
+              "often_delayed_by_over_30_min": true
+            },
+            {
+              "departure_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 16:00"
+              },
+              "arrival_airport": {
+                "name": "San Francisco International Airport",
+                "id": "SFO",
+                "time": "2024-09-01 10:40"
+              },
+              "duration": 640,
+              "airplane": "Boeing 777",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 23",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Carbon emissions estimate: 818 kg"
+              ],
+              "overnight": true
+            },
+            {
+              "departure_airport": {
+                "name": "San Francisco International Airport",
+                "id": "SFO",
+                "time": "2024-09-01 17:16"
+              },
+              "arrival_airport": {
+                "name": "Austin-Bergstrom International Airport",
+                "id": "AUS",
+                "time": "2024-09-01 22:50"
+              },
+              "duration": 214,
+              "airplane": "Boeing 737MAX 9 Passenger",
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "travel_class": "Economy",
+              "flight_number": "AS 534",
+              "ticket_also_sold_by": ["Fiji Airways"],
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "Wi-Fi for a fee",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Carbon emissions estimate: 191 kg"
+              ]
+            }
+          ],
+          "layovers": [
+            {
+              "duration": 915,
+              "name": "Incheon International Airport",
+              "id": "ICN",
+              "overnight": true
+            },
+            {
+              "duration": 396,
+              "name": "San Francisco International Airport",
+              "id": "SFO"
+            }
+          ],
+          "total_duration": 2290,
+          "carbon_emissions": {
+            "this_flight": 1108000,
+            "typical_for_this_route": 1139000,
+            "difference_percent": -3
+          },
+          "price": 3847,
+          "type": "Round trip",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+          "departure_token": "WyJDalJJZFc0MmFEQlRlVE5GZERSQlJTMVFjRUZDUnkwdExTMHRMUzB0TFMxNWFXNTFPRUZCUVVGQlIySlVSelJ6UVUwd2NtTkJFaEJMUlRnMU5IeExSVEl6ZkVGVE5UTTBHZ3NJODd3WEVBSWFBMVZUUkRnY2NQTzhGdz09IixbWyJQRUsiLCIyMDI0LTA4LTMxIiwiSUNOIixudWxsLCJLRSIsIjg1NCJdLFsiSUNOIiwiMjAyNC0wOS0wMSIsIlNGTyIsbnVsbCwiS0UiLCIyMyJdLFsiU0ZPIiwiMjAyNC0wOS0wMSIsIkFVUyIsbnVsbCwiQVMiLCI1MzQiXV1d"
+        },
+        {
+          "flights": [
+            {
+              "departure_airport": {
+                "name": "Beijing Capital International Airport",
+                "id": "PEK",
+                "time": "2024-08-31 21:40"
+              },
+              "arrival_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 00:45"
+              },
+              "duration": 125,
+              "airplane": "Boeing 737MAX 8 Passenger",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 854",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Wi-Fi for a fee",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Carbon emissions estimate: 97 kg"
+              ],
+              "often_delayed_by_over_30_min": true
+            },
+            {
+              "departure_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 20:00"
+              },
+              "arrival_airport": {
+                "name": "San Francisco International Airport",
+                "id": "SFO",
+                "time": "2024-09-01 14:40"
+              },
+              "duration": 640,
+              "airplane": "Boeing 787",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 25",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Carbon emissions estimate: 707 kg"
+              ],
+              "overnight": true,
+              "often_delayed_by_over_30_min": true
+            },
+            {
+              "departure_airport": {
+                "name": "San Francisco International Airport",
+                "id": "SFO",
+                "time": "2024-09-01 17:16"
+              },
+              "arrival_airport": {
+                "name": "Austin-Bergstrom International Airport",
+                "id": "AUS",
+                "time": "2024-09-01 22:50"
+              },
+              "duration": 214,
+              "airplane": "Boeing 737MAX 9 Passenger",
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "travel_class": "Economy",
+              "flight_number": "AS 534",
+              "ticket_also_sold_by": ["Fiji Airways"],
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "Wi-Fi for a fee",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Carbon emissions estimate: 191 kg"
+              ]
+            }
+          ],
+          "layovers": [
+            {
+              "duration": 1155,
+              "name": "Incheon International Airport",
+              "id": "ICN",
+              "overnight": true
+            },
+            {
+              "duration": 156,
+              "name": "San Francisco International Airport",
+              "id": "SFO"
+            }
+          ],
+          "total_duration": 2290,
+          "carbon_emissions": {
+            "this_flight": 997000,
+            "typical_for_this_route": 1139000,
+            "difference_percent": -12
+          },
+          "price": 3847,
+          "type": "Round trip",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+          "departure_token": "WyJDalJJZFc0MmFEQlRlVE5GZERSQlJTMVFjRUZDUnkwdExTMHRMUzB0TFMxNWFXNTFPRUZCUVVGQlIySlVSelJ6UVUwd2NtTkJFaEJMUlRnMU5IeExSVEkxZkVGVE5UTTBHZ3NJODd3WEVBSWFBMVZUUkRnY2NQTzhGdz09IixbWyJQRUsiLCIyMDI0LTA4LTMxIiwiSUNOIixudWxsLCJLRSIsIjg1NCJdLFsiSUNOIiwiMjAyNC0wOS0wMSIsIlNGTyIsbnVsbCwiS0UiLCIyNSJdLFsiU0ZPIiwiMjAyNC0wOS0wMSIsIkFVUyIsbnVsbCwiQVMiLCI1MzQiXV1d"
+        },
+        {
+          "flights": [
+            {
+              "departure_airport": {
+                "name": "Beijing Capital International Airport",
+                "id": "PEK",
+                "time": "2024-08-31 21:40"
+              },
+              "arrival_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 00:45"
+              },
+              "duration": 125,
+              "airplane": "Boeing 737MAX 8 Passenger",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 854",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Wi-Fi for a fee",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Carbon emissions estimate: 97 kg"
+              ],
+              "often_delayed_by_over_30_min": true
+            },
+            {
+              "departure_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 10:35"
+              },
+              "arrival_airport": {
+                "name": "Detroit Metropolitan Wayne County Airport",
+                "id": "DTW",
+                "time": "2024-09-01 10:55"
+              },
+              "duration": 800,
+              "airplane": "Airbus A350",
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "travel_class": "Economy",
+              "flight_number": "DL 158",
+              "ticket_also_sold_by": ["Korean Air"],
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "Wi-Fi",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Carbon emissions estimate: 629 kg"
+              ],
+              "overnight": true
+            },
+            {
+              "departure_airport": {
+                "name": "Detroit Metropolitan Wayne County Airport",
+                "id": "DTW",
+                "time": "2024-09-01 12:59"
+              },
+              "arrival_airport": {
+                "name": "Austin-Bergstrom International Airport",
+                "id": "AUS",
+                "time": "2024-09-01 14:59"
+              },
+              "duration": 180,
+              "airplane": "Airbus A320",
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "travel_class": "Economy",
+              "flight_number": "DL 2015",
+              "ticket_also_sold_by": ["Korean Air"],
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "Free Wi-Fi",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Carbon emissions estimate: 173 kg"
+              ],
+              "often_delayed_by_over_30_min": true
+            }
+          ],
+          "layovers": [
+            {
+              "duration": 590,
+              "name": "Incheon International Airport",
+              "id": "ICN",
+              "overnight": true
+            },
+            {
+              "duration": 124,
+              "name": "Detroit Metropolitan Wayne County Airport",
+              "id": "DTW"
+            }
+          ],
+          "total_duration": 1819,
+          "carbon_emissions": {
+            "this_flight": 900000,
+            "typical_for_this_route": 1139000,
+            "difference_percent": -21
+          },
+          "price": 3848,
+          "type": "Round trip",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+          "departure_token": "WyJDalJJZFc0MmFEQlRlVE5GZERSQlJTMVFjRUZDUnkwdExTMHRMUzB0TFMxNWFXNTFPRUZCUVVGQlIySlVSelJ6UVUwd2NtTkJFaEpMUlRnMU5IeEVUREUxT0h4RVRESXdNVFVhQ3dqV3ZSY1FBaG9EVlZORU9CeHcxcjBYIixbWyJQRUsiLCIyMDI0LTA4LTMxIiwiSUNOIixudWxsLCJLRSIsIjg1NCJdLFsiSUNOIiwiMjAyNC0wOS0wMSIsIkRUVyIsbnVsbCwiREwiLCIxNTgiXSxbIkRUVyIsIjIwMjQtMDktMDEiLCJBVVMiLG51bGwsIkRMIiwiMjAxNSJdXV0="
+        },
+        {
+          "flights": [
+            {
+              "departure_airport": {
+                "name": "Beijing Capital International Airport",
+                "id": "PEK",
+                "time": "2024-08-31 21:40"
+              },
+              "arrival_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 00:45"
+              },
+              "duration": 125,
+              "airplane": "Boeing 737MAX 8 Passenger",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 854",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Wi-Fi for a fee",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Carbon emissions estimate: 97 kg"
+              ],
+              "often_delayed_by_over_30_min": true
+            },
+            {
+              "departure_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 09:20"
+              },
+              "arrival_airport": {
+                "name": "Dallas Fort Worth International Airport",
+                "id": "DFW",
+                "time": "2024-09-01 08:00"
+              },
+              "duration": 760,
+              "airplane": "Boeing 787",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 31",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Carbon emissions estimate: 825 kg"
+              ],
+              "overnight": true
+            },
+            {
+              "departure_airport": {
+                "name": "Dallas Fort Worth International Airport",
+                "id": "DFW",
+                "time": "2024-09-01 10:10"
+              },
+              "arrival_airport": {
+                "name": "Austin-Bergstrom International Airport",
+                "id": "AUS",
+                "time": "2024-09-01 11:29"
+              },
+              "duration": 79,
+              "airplane": "Boeing 737",
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "travel_class": "Economy",
+              "flight_number": "AA 814",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Wi-Fi for a fee",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Carbon emissions estimate: 57 kg"
+              ]
+            }
+          ],
+          "layovers": [
+            {
+              "duration": 515,
+              "name": "Incheon International Airport",
+              "id": "ICN",
+              "overnight": true
+            },
+            {
+              "duration": 130,
+              "name": "Dallas Fort Worth International Airport",
+              "id": "DFW"
+            }
+          ],
+          "total_duration": 1609,
+          "carbon_emissions": {
+            "this_flight": 980000,
+            "typical_for_this_route": 1139000,
+            "difference_percent": -14
+          },
+          "price": 4638,
+          "type": "Round trip",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+          "departure_token": "WyJDalJJZFc0MmFEQlRlVE5GZERSQlJTMVFjRUZDUnkwdExTMHRMUzB0TFMxNWFXNTFPRUZCUVVGQlIySlVSelJ6UVUwd2NtTkJFaEJMUlRnMU5IeExSVE14ZkVGQk9ERTBHZ3NJNXFZY0VBSWFBMVZUUkRnY2NPYW1IQT09IixbWyJQRUsiLCIyMDI0LTA4LTMxIiwiSUNOIixudWxsLCJLRSIsIjg1NCJdLFsiSUNOIiwiMjAyNC0wOS0wMSIsIkRGVyIsbnVsbCwiS0UiLCIzMSJdLFsiREZXIiwiMjAyNC0wOS0wMSIsIkFVUyIsbnVsbCwiQUEiLCI4MTQiXV1d"
+        }
+      ],
+      "other_flights": [
+        {
+          "flights": [
+            {
+              "departure_airport": {
+                "name": "Beijing Capital International Airport",
+                "id": "PEK",
+                "time": "2024-08-31 21:40"
+              },
+              "arrival_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 00:45"
+              },
+              "duration": 125,
+              "airplane": "Boeing 737MAX 8 Passenger",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 854",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Wi-Fi for a fee",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Carbon emissions estimate: 97 kg"
+              ],
+              "often_delayed_by_over_30_min": true
+            },
+            {
+              "departure_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 14:40"
+              },
+              "arrival_airport": {
+                "name": "Los Angeles International Airport",
+                "id": "LAX",
+                "time": "2024-09-01 10:20"
+              },
+              "duration": 700,
+              "airplane": "Airbus A380",
+              "airline": "Asiana",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+              "travel_class": "Economy",
+              "flight_number": "OZ 202",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Carbon emissions estimate: 854 kg"
+              ],
+              "overnight": true,
+              "often_delayed_by_over_30_min": true
+            },
+            {
+              "departure_airport": {
+                "name": "Los Angeles International Airport",
+                "id": "LAX",
+                "time": "2024-09-01 15:23"
+              },
+              "arrival_airport": {
+                "name": "Austin-Bergstrom International Airport",
+                "id": "AUS",
+                "time": "2024-09-01 20:29"
+              },
+              "duration": 186,
+              "airplane": "Boeing 737",
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "travel_class": "Economy",
+              "flight_number": "AA 1953",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Wi-Fi for a fee",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Carbon emissions estimate: 189 kg"
+              ]
+            }
+          ],
+          "layovers": [
+            {
+              "duration": 835,
+              "name": "Incheon International Airport",
+              "id": "ICN",
+              "overnight": true
+            },
+            {
+              "duration": 303,
+              "name": "Los Angeles International Airport",
+              "id": "LAX"
+            }
+          ],
+          "total_duration": 2149,
+          "carbon_emissions": {
+            "this_flight": 1142000,
+            "typical_for_this_route": 1139000,
+            "difference_percent": 0
+          },
+          "price": 5530,
+          "type": "Round trip",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+          "departure_token": "WyJDalJJZFc0MmFEQlRlVE5GZERSQlJTMVFjRUZDUnkwdExTMHRMUzB0TFMxNWFXNTFPRUZCUVVGQlIySlVSelJ6UVUwd2NtTkJFaEpMUlRnMU5IeFBXakl3TW54QlFURTVOVE1hQ3dqeTN5RVFBaG9EVlZORU9CeHc4dDhoIixbWyJQRUsiLCIyMDI0LTA4LTMxIiwiSUNOIixudWxsLCJLRSIsIjg1NCJdLFsiSUNOIiwiMjAyNC0wOS0wMSIsIkxBWCIsbnVsbCwiT1oiLCIyMDIiXSxbIkxBWCIsIjIwMjQtMDktMDEiLCJBVVMiLG51bGwsIkFBIiwiMTk1MyJdXV0="
+        },
+        {
+          "flights": [
+            {
+              "departure_airport": {
+                "name": "Beijing Capital International Airport",
+                "id": "PEK",
+                "time": "2024-08-31 21:40"
+              },
+              "arrival_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 00:45"
+              },
+              "duration": 125,
+              "airplane": "Boeing 737MAX 8 Passenger",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 854",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Wi-Fi for a fee",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Carbon emissions estimate: 97 kg"
+              ],
+              "often_delayed_by_over_30_min": true
+            },
+            {
+              "departure_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 14:40"
+              },
+              "arrival_airport": {
+                "name": "Los Angeles International Airport",
+                "id": "LAX",
+                "time": "2024-09-01 10:20"
+              },
+              "duration": 700,
+              "airplane": "Airbus A380",
+              "airline": "Asiana",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+              "travel_class": "Economy",
+              "flight_number": "OZ 202",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Carbon emissions estimate: 854 kg"
+              ],
+              "overnight": true,
+              "often_delayed_by_over_30_min": true
+            },
+            {
+              "departure_airport": {
+                "name": "Los Angeles International Airport",
+                "id": "LAX",
+                "time": "2024-09-01 18:56"
+              },
+              "arrival_airport": {
+                "name": "Austin-Bergstrom International Airport",
+                "id": "AUS",
+                "time": "2024-09-01 23:58"
+              },
+              "duration": 182,
+              "airplane": "Boeing 737",
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "travel_class": "Economy",
+              "flight_number": "DL 692",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "Free Wi-Fi",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Carbon emissions estimate: 187 kg"
+              ],
+              "often_delayed_by_over_30_min": true
+            }
+          ],
+          "layovers": [
+            {
+              "duration": 835,
+              "name": "Incheon International Airport",
+              "id": "ICN",
+              "overnight": true
+            },
+            {
+              "duration": 516,
+              "name": "Los Angeles International Airport",
+              "id": "LAX"
+            }
+          ],
+          "total_duration": 2358,
+          "carbon_emissions": {
+            "this_flight": 1140000,
+            "typical_for_this_route": 1139000,
+            "difference_percent": 0
+          },
+          "price": 5530,
+          "type": "Round trip",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+          "departure_token": "WyJDalJJZFc0MmFEQlRlVE5GZERSQlJTMVFjRUZDUnkwdExTMHRMUzB0TFMxNWFXNTFPRUZCUVVGQlIySlVSelJ6UVUwd2NtTkJFaEZMUlRnMU5IeFBXakl3TW54RVREWTVNaG9MQ1BMZklSQUNHZ05WVTBRNEhIRHkzeUU9IixbWyJQRUsiLCIyMDI0LTA4LTMxIiwiSUNOIixudWxsLCJLRSIsIjg1NCJdLFsiSUNOIiwiMjAyNC0wOS0wMSIsIkxBWCIsbnVsbCwiT1oiLCIyMDIiXSxbIkxBWCIsIjIwMjQtMDktMDEiLCJBVVMiLG51bGwsIkRMIiwiNjkyIl1dXQ=="
+        },
+        {
+          "flights": [
+            {
+              "departure_airport": {
+                "name": "Beijing Capital International Airport",
+                "id": "PEK",
+                "time": "2024-08-31 21:40"
+              },
+              "arrival_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 00:45"
+              },
+              "duration": 125,
+              "airplane": "Boeing 737MAX 8 Passenger",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 854",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Wi-Fi for a fee",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Carbon emissions estimate: 97 kg"
+              ],
+              "often_delayed_by_over_30_min": true
+            },
+            {
+              "departure_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 16:00"
+              },
+              "arrival_airport": {
+                "name": "San Francisco International Airport",
+                "id": "SFO",
+                "time": "2024-09-01 10:40"
+              },
+              "duration": 640,
+              "airplane": "Boeing 777",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 23",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Carbon emissions estimate: 818 kg"
+              ],
+              "overnight": true
+            },
+            {
+              "departure_airport": {
+                "name": "San Francisco International Airport",
+                "id": "SFO",
+                "time": "2024-09-01 18:53"
+              },
+              "arrival_airport": {
+                "name": "Austin-Bergstrom International Airport",
+                "id": "AUS",
+                "time": "2024-09-02 00:30"
+              },
+              "duration": 217,
+              "airplane": "Boeing 737MAX 9 Passenger",
+              "airline": "United",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+              "travel_class": "Economy",
+              "flight_number": "UA 2047",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Wi-Fi for a fee",
+                "In-seat power outlet",
+                "Stream media to your device",
+                "Carbon emissions estimate: 178 kg"
+              ]
+            }
+          ],
+          "layovers": [
+            {
+              "duration": 915,
+              "name": "Incheon International Airport",
+              "id": "ICN",
+              "overnight": true
+            },
+            {
+              "duration": 493,
+              "name": "San Francisco International Airport",
+              "id": "SFO"
+            }
+          ],
+          "total_duration": 2390,
+          "carbon_emissions": {
+            "this_flight": 1094000,
+            "typical_for_this_route": 1139000,
+            "difference_percent": -4
+          },
+          "price": 5757,
+          "type": "Round trip",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+          "departure_token": "WyJDalJJZFc0MmFEQlRlVE5GZERSQlJTMVFjRUZDUnkwdExTMHRMUzB0TFMxNWFXNTFPRUZCUVVGQlIySlVSelJ6UVUwd2NtTkJFaEZMUlRnMU5IeExSVEl6ZkZWQk1qQTBOeG9MQ0t1Ukl4QUNHZ05WVTBRNEhIQ3JrU009IixbWyJQRUsiLCIyMDI0LTA4LTMxIiwiSUNOIixudWxsLCJLRSIsIjg1NCJdLFsiSUNOIiwiMjAyNC0wOS0wMSIsIlNGTyIsbnVsbCwiS0UiLCIyMyJdLFsiU0ZPIiwiMjAyNC0wOS0wMSIsIkFVUyIsbnVsbCwiVUEiLCIyMDQ3Il1dXQ=="
+        },
+        {
+          "flights": [
+            {
+              "departure_airport": {
+                "name": "Beijing Capital International Airport",
+                "id": "PEK",
+                "time": "2024-08-31 21:40"
+              },
+              "arrival_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 00:45"
+              },
+              "duration": 125,
+              "airplane": "Boeing 737MAX 8 Passenger",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 854",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Wi-Fi for a fee",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Carbon emissions estimate: 97 kg"
+              ],
+              "often_delayed_by_over_30_min": true
+            },
+            {
+              "departure_airport": {
+                "name": "Incheon International Airport",
+                "id": "ICN",
+                "time": "2024-09-01 20:00"
+              },
+              "arrival_airport": {
+                "name": "San Francisco International Airport",
+                "id": "SFO",
+                "time": "2024-09-01 14:40"
+              },
+              "duration": 640,
+              "airplane": "Boeing 787",
+              "airline": "Korean Air",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+              "travel_class": "Economy",
+              "flight_number": "KE 25",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Carbon emissions estimate: 707 kg"
+              ],
+              "overnight": true,
+              "often_delayed_by_over_30_min": true
+            },
+            {
+              "departure_airport": {
+                "name": "San Francisco International Airport",
+                "id": "SFO",
+                "time": "2024-09-01 18:53"
+              },
+              "arrival_airport": {
+                "name": "Austin-Bergstrom International Airport",
+                "id": "AUS",
+                "time": "2024-09-02 00:30"
+              },
+              "duration": 217,
+              "airplane": "Boeing 737MAX 9 Passenger",
+              "airline": "United",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+              "travel_class": "Economy",
+              "flight_number": "UA 2047",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Wi-Fi for a fee",
+                "In-seat power outlet",
+                "Stream media to your device",
+                "Carbon emissions estimate: 178 kg"
+              ]
+            }
+          ],
+          "layovers": [
+            {
+              "duration": 1155,
+              "name": "Incheon International Airport",
+              "id": "ICN",
+              "overnight": true
+            },
+            {
+              "duration": 253,
+              "name": "San Francisco International Airport",
+              "id": "SFO"
+            }
+          ],
+          "total_duration": 2390,
+          "carbon_emissions": {
+            "this_flight": 983000,
+            "typical_for_this_route": 1139000,
+            "difference_percent": -14
+          },
+          "price": 5757,
+          "type": "Round trip",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+          "departure_token": "WyJDalJJZFc0MmFEQlRlVE5GZERSQlJTMVFjRUZDUnkwdExTMHRMUzB0TFMxNWFXNTFPRUZCUVVGQlIySlVSelJ6UVUwd2NtTkJFaEZMUlRnMU5IeExSVEkxZkZWQk1qQTBOeG9MQ0t1Ukl4QUNHZ05WVTBRNEhIQ3JrU009IixbWyJQRUsiLCIyMDI0LTA4LTMxIiwiSUNOIixudWxsLCJLRSIsIjg1NCJdLFsiSUNOIiwiMjAyNC0wOS0wMSIsIlNGTyIsbnVsbCwiS0UiLCIyNSJdLFsiU0ZPIiwiMjAyNC0wOS0wMSIsIkFVUyIsbnVsbCwiVUEiLCIyMDQ3Il1dXQ=="
+        }
+      ],
+      "price_insights": {
+        "lowest_price": 3847,
+        "price_level": "high",
+        "typical_price_range": [1500, 2300],
+        "price_history": [
+          [1719849600, 1336],
+          [1719936000, 1336],
+          [1720022400, 1335],
+          [1720108800, 1336],
+          [1720195200, 1336],
+          [1720281600, 1336],
+          [1720368000, 1336],
+          [1720454400, 1330],
+          [1720540800, 1436],
+          [1720627200, 1508],
+          [1720713600, 1303],
+          [1720800000, 1306],
+          [1720886400, 1445],
+          [1720972800, 1445],
+          [1721059200, 1445],
+          [1721145600, 1443],
+          [1721232000, 1468],
+          [1721318400, 1443],
+          [1721404800, 1443],
+          [1721491200, 1304],
+          [1721577600, 1304],
+          [1721664000, 1304],
+          [1721750400, 1441],
+          [1721836800, 1440],
+          [1721923200, 1443],
+          [1722009600, 1451],
+          [1722096000, 1445],
+          [1722182400, 1445],
+          [1722268800, 1445],
+          [1722355200, 1443],
+          [1722441600, 1445],
+          [1722528000, 1313],
+          [1722614400, 1340],
+          [1722700800, 1355],
+          [1722787200, 1355],
+          [1722873600, 1351],
+          [1722960000, 1358],
+          [1723046400, 1433],
+          [1723132800, 1431],
+          [1723219200, 1432],
+          [1723305600, 1490],
+          [1723392000, 1490],
+          [1723478400, 1517],
+          [1723564800, 1519],
+          [1723651200, 1523],
+          [1723737600, 1412],
+          [1723824000, 1407],
+          [1723910400, 1423],
+          [1723996800, 1423],
+          [1724083200, 1419],
+          [1724169600, 1422],
+          [1724256000, 1426],
+          [1724342400, 1425],
+          [1724428800, 1427],
+          [1724515200, 1421],
+          [1724601600, 1427],
+          [1724688000, 1479],
+          [1724774400, 1428],
+          [1724860800, 1424],
+          [1724947200, 1429],
+          [1725033600, 3847]
+        ]
+      }
+    }
+  ],
+  "hotels": [
+    {
+      "_id": "6242e269795f4b4c106aebff",
+      "name": "The Surya New Delhi",
+      "ratings": 4,
+      "location": "New Delhi",
+      "country": "India",
+      "price": 8020,
+      "cover": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201007021321155840-6494936c1fb111e9a6760242ac110002.jpg?&output-quality=75&downsize=910:612&output-format=webp&downsize=1400:520&crop=1400:520",
+      "extraimageUrl": [
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-2e9781f0f3f611ea96bb0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/7fdcc994f3f611eaacb90242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-0a3c7be4e26811e4a4045ee5da2daa2a.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aec02",
+      "name": "Crowne Plaza Okhla, Manyata Tech Park",
+      "ratings": 4,
+      "location": "Bengaluru",
+      "country": "India",
+      "price": 8470,
+      "cover": "https://r1imghtlak.mmtcdn.com/kgudqj58e97dnff94um4ho430013.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+      "extraimageUrl": [
+        "https://r1imghtlak.mmtcdn.com/8efe6e0c237711e8ade7025f77df004f.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/kgudqj58e97dnff94um4ho430013.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/8c518310237711e89cd40a4cef95d023.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aec06",
+      "name": "Radisson Blue Bengaluru",
+      "ratings": 4,
+      "location": "Bengaluru",
+      "country": "India",
+      "price": 6990,
+      "cover": "https://r1imghtlak.mmtcdn.com/d076a970c29e11ebbbed0242ac110005.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg&downsize=1400:520&crop=1400:520",
+      "extraimageUrl": [
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-2e9781f0f3f611ea96bb0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/7fdcc994f3f611eaacb90242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-0a3c7be4e26811e4a4045ee5da2daa2a.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aec07",
+      "name": "Crowne Plaza Okhla, Juhu",
+      "ratings": 4,
+      "location": "Mumbai",
+      "country": "India",
+      "price": 8470,
+      "cover": "https://r1imghtlak.mmtcdn.com/kgudqj58e97dnff94um4ho430013.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+      "extraimageUrl": [
+        "https://r1imghtlak.mmtcdn.com/8efe6e0c237711e8ade7025f77df004f.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/kgudqj58e97dnff94um4ho430013.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/8c518310237711e89cd40a4cef95d023.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aec08",
+      "name": "Eros Hotel New Delhi ,Bkc",
+      "ratings": 5,
+      "location": "Mumbai",
+      "country": "India",
+      "price": 9070,
+      "cover": "https://r1imghtlak.mmtcdn.com/29bfb31ee26811e4be23001ec9b85d13.jfif?&output-quality=75&downsize=910:612&crop=910:612;0,73&output-format=webp&downsize=1400:520&crop=1400:520",
+      "extraimageUrl": [
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-2e9781f0f3f611ea96bb0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/7fdcc994f3f611eaacb90242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-0a3c7be4e26811e4a4045ee5da2daa2a.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aec09",
+      "name": "The Suryaa, Powai",
+      "ratings": 4,
+      "location": "Mumbai",
+      "country": "India",
+      "price": 8020,
+      "cover": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201007021321155840-6494936c1fb111e9a6760242ac110002.jpg?&output-quality=75&downsize=910:612&output-format=webp&downsize=1400:520&crop=1400:520",
+      "extraimageUrl": [
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-2e9781f0f3f611ea96bb0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/7fdcc994f3f611eaacb90242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-0a3c7be4e26811e4a4045ee5da2daa2a.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aec0b",
+      "name": "Radisson Blue, Powai",
+      "ratings": 4,
+      "location": "Mumbai",
+      "country": "India",
+      "price": 6990,
+      "cover": "https://r1imghtlak.mmtcdn.com/d076a970c29e11ebbbed0242ac110005.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg&downsize=1400:520&crop=1400:520",
+      "extraimageUrl": [
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-2e9781f0f3f611ea96bb0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/7fdcc994f3f611eaacb90242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-0a3c7be4e26811e4a4045ee5da2daa2a.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aebfd",
+      "name": "Crowne Plaza Okhla, South Delhi",
+      "ratings": 4,
+      "location": "New Delhi",
+      "country": "India",
+      "price": 8470,
+      "cover": "https://r1imghtlak.mmtcdn.com/kgudqj58e97dnff94um4ho430013.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+      "extraimageUrl": [
+        "https://r1imghtlak.mmtcdn.com/8efe6e0c237711e8ade7025f77df004f.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/kgudqj58e97dnff94um4ho430013.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/8c518310237711e89cd40a4cef95d023.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aec00",
+      "name": "Roseate House New Delhi",
+      "ratings": 4,
+      "location": "New Delhi",
+      "country": "India",
+      "price": 7090,
+      "cover": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/200810221411529549-44ac12fa97e811e9b25b0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=webp&downsize=1400:520&crop=1400:520",
+      "extraimageUrl": [
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-2e9781f0f3f611ea96bb0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/7fdcc994f3f611eaacb90242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-0a3c7be4e26811e4a4045ee5da2daa2a.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aebfe",
+      "name": "Eros Hotel New Delhi ,Nehru Place",
+      "ratings": 5,
+      "location": "New Delhi",
+      "country": "India",
+      "price": 9070,
+      "cover": "https://r1imghtlak.mmtcdn.com/29bfb31ee26811e4be23001ec9b85d13.jfif?&output-quality=75&downsize=910:612&crop=910:612;0,73&output-format=webp&downsize=1400:520&crop=1400:520",
+      "extraimageUrl": [
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-2e9781f0f3f611ea96bb0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/7fdcc994f3f611eaacb90242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-0a3c7be4e26811e4a4045ee5da2daa2a.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aec03",
+      "name": "Eros Hotel New Delhi ,HSR Layout",
+      "ratings": 5,
+      "location": "Bengaluru",
+      "country": "India",
+      "price": 9070,
+      "cover": "https://r1imghtlak.mmtcdn.com/29bfb31ee26811e4be23001ec9b85d13.jfif?&output-quality=75&downsize=910:612&crop=910:612;0,73&output-format=webp&downsize=1400:520&crop=1400:520",
+      "extraimageUrl": [
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-2e9781f0f3f611ea96bb0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/7fdcc994f3f611eaacb90242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-0a3c7be4e26811e4a4045ee5da2daa2a.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aec05",
+      "name": "Roseate House Bengaluru",
+      "ratings": 4,
+      "location": "Bengaluru",
+      "country": "India",
+      "price": 7090,
+      "cover": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/200810221411529549-44ac12fa97e811e9b25b0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=webp&downsize=1400:520&crop=1400:520",
+      "extraimageUrl": [
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-2e9781f0f3f611ea96bb0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/7fdcc994f3f611eaacb90242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-0a3c7be4e26811e4a4045ee5da2daa2a.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aec0a",
+      "name": "Roseate House, Andheri",
+      "ratings": 4,
+      "location": "Mumbai",
+      "country": "India",
+      "price": 7090,
+      "cover": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/200810221411529549-44ac12fa97e811e9b25b0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=webp&downsize=1400:520&crop=1400:520",
+      "extraimageUrl": [
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-2e9781f0f3f611ea96bb0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/7fdcc994f3f611eaacb90242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-0a3c7be4e26811e4a4045ee5da2daa2a.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aec01",
+      "name": "Radisson Blue New Delhi",
+      "ratings": 4,
+      "location": "New Delhi",
+      "country": "India",
+      "price": 6990,
+      "cover": "https://r1imghtlak.mmtcdn.com/d076a970c29e11ebbbed0242ac110005.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg&downsize=1400:520&crop=1400:520",
+      "extraimageUrl": [
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-2e9781f0f3f611ea96bb0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/7fdcc994f3f611eaacb90242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-0a3c7be4e26811e4a4045ee5da2daa2a.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    },
+    {
+      "_id": "6242e269795f4b4c106aec04",
+      "name": "The Suryaa Bengaluru",
+      "ratings": 4,
+      "location": "Bengaluru",
+      "country": "India",
+      "price": 8020,
+      "cover": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201007021321155840-6494936c1fb111e9a6760242ac110002.jpg?&output-quality=75&downsize=910:612&output-format=webp&downsize=1400:520&crop=1400:520",
+      "extraimageUrl": [
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-2e9781f0f3f611ea96bb0242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r1imghtlak.mmtcdn.com/7fdcc994f3f611eaacb90242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=webp",
+        "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/2016072005194324962-0a3c7be4e26811e4a4045ee5da2daa2a.jpg?&output-quality=75&downsize=243:162&output-format=webp"
+      ]
+    }
+  ]
+}
