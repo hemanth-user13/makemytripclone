@@ -9,10 +9,10 @@ const Test = () => {
    
 
     const GetData=async()=>{
-        const AVITATION_URL=``
+        const AVITATION_URL=`http://localhost:8003/flight`
         try {
             const response=await axios.get(AVITATION_URL);
-            console.log(response.data);
+            // console.log(response.data);
             setData(response.data)
             setError(false)
         } catch (error) {

@@ -19,3 +19,26 @@ barnds image
 
 indianflag:
 https://imgak.mmtcdn.com/pwa_v3/pwa_mmt_ui_assets/in_v2.webp
+
+
+
+userId:
+cc8aa8b7ceea5e9a68ed3757adae1703
+
+
+import FingerprintJS from '@fingerprintjs/fingerprintjs';
+
+
+
+const UserLogin = async () => {
+  try {
+    const fp = await FingerprintJS.load();
+    const result = await fp.get();
+    const visitorId: string = result.visitorId;
+    console.log(visitorId);
+  } catch (error) {
+    console.error('Error loading FingerprintJS:', error);
+  }
+}
+
+export default UserLogin;

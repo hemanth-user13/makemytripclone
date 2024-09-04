@@ -7,7 +7,7 @@ const Navbar = () => {
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
 
-    if (currentScrollY > 1000) {
+    if (currentScrollY > 300) {
       setShowNavbar(true);
     } else {
       setShowNavbar(false);

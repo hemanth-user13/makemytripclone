@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "../Helpers/Curosel";
-import FLightcard from "../Pages/Flights/FlightCard";
+import FLightcard from "../Pages/Flights/FlightCards/FlightData";
 import HotelsCard from "../Pages/Hotels/Hotelcard";
 import HolidayCard from "../Pages/HolidayPackage/HolidayCard";
 import TrainsCard from "../Pages/Trains/TrainCard";

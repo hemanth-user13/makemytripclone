@@ -134,9 +134,9 @@ export const Insurance = () => {
   return (
     <div className="flex flex-col items-center space-y-2">
       <Link to="/insurance">
-        <FaShieldAlt className="text-blue-500 text-3xl sm:text-4xl ml-10" />
+        <FaShieldAlt className="text-blue-500 text-3xl sm:text-4xl ml-3" />
         <span className="text-xs sm:text-sm md:text-base font-medium">
-          Travel Insurance
+          Insurance
         </span>
       </Link>
     </div>
