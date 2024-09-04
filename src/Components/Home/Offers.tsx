@@ -1,6 +1,6 @@
 import React, { useReducer } from "react";
 
-import FlightCard from "../Pages/Flights/FlightCard";
+import FlightCard from "../Pages/Flights/FlightCards/FlightData";
 import HotelCard from "../Pages/Hotels/Hotelcard";
 import HolidayCard from "../Pages/HolidayPackage/HolidayCard";
 import TrainCard from "../Pages/Trains/TrainCard";
@@ -67,31 +67,31 @@ const Offers: React.FC = () => {
           style={{ marginLeft: "200px", position: "absolute", top: "110px" }}
         >
           <button
-            className="btn"
+            className="btn hover:text-cyan-500"
             onClick={() => dispatch({ type: "alloffers" })}
           >
             All Offers
           </button>
-          <button className="btn" onClick={() => dispatch({ type: "flights" })}>
+          <button className="btn hover:text-cyan-500" onClick={() => dispatch({ type: "flights" })}>
             Flights
           </button>
-          <button className="btn" onClick={() => dispatch({ type: "hotels" })}>
+          <button className="btn hover:text-cyan-500" onClick={() => dispatch({ type: "hotels" })}>
             Hotels
           </button>
           <button
-            className="btn"
+            className="btn hover:text-cyan-500"
             onClick={() => dispatch({ type: "holidays" })}
           >
             Holidays
           </button>
-          <button className="btn" onClick={() => dispatch({ type: "trains" })}>
+          <button className="btn hover:text-cyan-500" onClick={() => dispatch({ type: "trains" })}>
             Trains
           </button>
-          <button className="btn" onClick={() => dispatch({ type: "cabs" })}>
+          <button className="btn hover:text-cyan-500" onClick={() => dispatch({ type: "cabs" })}>
             Cabs
           </button>
           <button
-            className="btn"
+            className="btn hover:text-cyan-500"
             onClick={() => dispatch({ type: "bank-offers" })}
           >
             Bank Offers
