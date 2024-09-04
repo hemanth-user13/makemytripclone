@@ -7,6 +7,9 @@ import TravelDropDown from "../../Helpers/DropDown";
 import SearchButton from "../../Helpers/SearchButton";
 import DestinationModule from "../../Helpers/Destination";
 import { StartModuleProps, DestinationModuleProps } from "./types";
+import { redirect, useNavigate } from "react-router-dom";
+
+
 
 const FlightBookingForm = () => {
   const [startDate, setStartDate] = useState<Date | undefined>(undefined);
@@ -67,6 +70,11 @@ const FlightBookingForm = () => {
     }
   };
 
+  const navigate = useNavigate();
+
+  const handleRedirect = () => {
+    navigate('/fightspage');
+  }
   return (
     <div
       className="absolute inset-x-0 top-0 transform -translate-y-1/2 mx-auto w-full max-w-6xl p-4"
@@ -172,7 +180,7 @@ const FlightBookingForm = () => {
         </div>
 
         <div className="text-center">
-          <SearchButton buttonname="Search" onSearchClick={() => console.log("Search button clicked")} />
+          <SearchButton buttonname="Search" onSearchClick={handleRedirect} />
         </div>
       </div>
     </div>

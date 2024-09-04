@@ -1,6 +1,6 @@
 import FingerprintJS from '@fingerprintjs/fingerprintjs';
 
-export var Userid: string = "";
+export let Userid: string = "";
 
 const UserLogin = () => {
     const fpPromise = FingerprintJS.load();

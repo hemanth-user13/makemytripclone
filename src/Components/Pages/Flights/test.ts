@@ -71,7 +71,7 @@
 //   const initialValues = {
 //     specialFare: '',
 //     startDate,
-//     endDate,
+//     endDate,/[l;]
 //     travellers: '1',
 //     class: 'economy',
 //     from: firstStartRecord?.fixedplace || '',

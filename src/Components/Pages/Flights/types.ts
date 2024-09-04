@@ -21,6 +21,12 @@ export interface Coordinates {
     coordinates: Coordinates;
   }
 
+// type dummytype=|"date"|"todaydate"
+
+//   export interface dummyState{
+//     type:dummytype
+//   }
+
   // export interface StateProps{
   //   date:string
   // }
