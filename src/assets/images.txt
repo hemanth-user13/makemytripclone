@@ -42,3 +42,6 @@ const UserLogin = async () => {
 }
 
 export default UserLogin;
+
+
+ const result = flights[0]?.data || [];

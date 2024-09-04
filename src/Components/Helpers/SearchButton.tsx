@@ -1,19 +1,15 @@
 import React from "react";
 
-interface SerachButtonProps {
+interface SearchButtonProps {
   buttonname?: string;
-  onSearchClick:()=>void
-  
+  onSearchClick: () => void;
 }
 
-const Searchbutton: React.FC<SerachButtonProps> = ({ buttonname,onSearchClick }) => {
-
-
-  
+const Searchbutton: React.FC<SearchButtonProps> = ({ buttonname, onSearchClick }) => {
   return (
-    <div style={{ position: "absolute", left: "480px" }}>
+    <div className="absolute left-[480px]">
       <button
-        className="bg-blue-500 text-white font-serif py-2 px-4 rounded-full w-44 text-2xl "
+        className="bg-blue-500 text-white font-serif py-2 px-4 rounded-full w-44 text-2xl"
         onClick={onSearchClick}
       >
         {buttonname}

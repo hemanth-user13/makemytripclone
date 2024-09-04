@@ -7,6 +7,7 @@ import Trains from "../Pages/Trains/TransLayout";
 import Buses from "../Pages/Buses/BusesLayout";
 import Cabs from "../Pages/Cabs/CabsLayout";
 import Insurance from "../Pages/TravelInsurance/TravelInsurance";
+import FlightPage from "../Pages/Flights/FlightPage";
 
 
 
@@ -16,6 +17,7 @@ function router() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />
+          <Route path="/fightspage" element={<FlightPage/>}/>
           <Route path="/hotels" element={<Hotels />} />
           <Route path="/Holidaypackage" element={<HolidayPackage />} />
           <Route path="/homestays" element={<HomeStays />} />
