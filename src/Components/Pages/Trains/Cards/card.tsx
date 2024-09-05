@@ -15,7 +15,7 @@ const TrainCard: React.FC<TrainDataProps> = ({
 }) => {
   return (
     <div className="cardlayout">
-      <div className="bg-white shadow-lg rounded-lg mb-4 overflow-hidden">
+      <div className="bg-white shadow-lg rounded-lg my-7 mb-4 overflow-hidden transition-transform transform hover:scale-105 hover:shadow-2xl">
         <div className="flex">
           <img
             src={imageURL}
@@ -34,14 +34,24 @@ const TrainCard: React.FC<TrainDataProps> = ({
               <button
                 className="bg-gradient-to-r from-green-400 via-green-500 to-green-600 text-white py-2 px-4 rounded transition-transform transform hover:scale-105 hover:opacity-90 focus:outline-none"
                 onClick={onButtonClick}
-                onMouseEnter={onchange} // Trigger onchange on button hover
+                onMouseEnter={onchange} 
               >
                 {buttonText}
               </button>
             </div>
           </div>
+          <div className="mr-10 mt-10">
+            <img
+              src="https://promos.makemytrip.com/Growth/Images/B2C/dt_app_download_qr.png"
+              alt="QR Code"
+              width="220px"
+              height="210px"
+            ></img>
+          </div>
         </div>
+        
       </div>
+
     </div>
   );
 };
