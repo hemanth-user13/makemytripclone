@@ -22,6 +22,7 @@
     "axios": "^1.7.7",
     "formik": "^2.4.6",
     "json-server": "^1.0.0-beta.2",
+    "qrcode": "^1.5.4",
     "react": "^18.3.1",
     "react-datepicker": "^7.3.0",
     "react-dom": "^18.3.1",
