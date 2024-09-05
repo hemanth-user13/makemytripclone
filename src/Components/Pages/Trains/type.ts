@@ -7,5 +7,6 @@ export interface TrainDataProps{
     price:string,
     imageURL?:string,
     onButtonClick: () => void,
-    buttonText:string
+    buttonText:string,
+    category:string,
 }

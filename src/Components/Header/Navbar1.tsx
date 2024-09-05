@@ -22,7 +22,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div
+    <div>
+      <div
       className={`fixed top-0 w-full bg-white transition-transform duration-300 ease-in-out z-50 ${
         showNavbar ? "translate-y-0" : "-translate-y-full"
       }`}
@@ -49,6 +50,7 @@ const Navbar = () => {
           <Insurance />
         </div>
       </nav>
+    </div>
     </div>
   );
 };
