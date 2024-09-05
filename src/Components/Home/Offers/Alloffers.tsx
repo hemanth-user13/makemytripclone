@@ -1,7 +1,24 @@
-import React from "react";
+// import { useDispatch, useSelector } from "react-redux"
+// import { RootState } from "../../../store"
+// import { useEffect } from "react";
+// import { fetchFlightData } from "../../Pages/Flights/FlightSlice";
+// import FlightCard from "../../Pages/Flights/FlightCards/FlightCard";
+import FlightData from '../../Pages/Flights/FlightCards/FlightData'
+
 
 const Alloffers = () => {
-  return <div></div>;
-};
+  // const dispatch: AppDispatch = useDispatch();
+  // const {data:flights}=useSelector((state:RootState)=>state.flights)
+  // useEffect(() => {
+  //   dispatch(fetchFlightData());
+  // }, [dispatch]);
 
-export default Alloffers;
+  // console.log("the data in all offers section is",flights)
+  return (
+    <div>
+     <FlightData/>
+    </div>
+  )
+}
+
+export default Alloffers

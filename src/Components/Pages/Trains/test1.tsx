@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { fetchTrainData } from "./TrainSlice";
 import { RootState, AppDispatch } from "../../../store";
 import Card from "./Cards/card";
-import Navbar from '../../Header/test';
+import Navbar from '../../Header/Navbar1';
 import FilterSidebar from './FliterSideBar';
 
 const TrainCard = () => {
@@ -23,16 +23,13 @@ const TrainCard = () => {
     const filtered = data.filter((train) =>
       selectedFilters.includes(train.category) 
     );
-    console.log(filtered)
     setFilteredData(filtered);
   };
-
-
 
   return (
     <div className="flex flex-col items-start p-4">
       <Navbar />
-      <div className="flex mt-24">
+      <div className="flex mt-4">
         <FilterSidebar onFilterChange={handleFilterChange} />
         <div className="flex-grow ml-8">
           {loading && <p>Loading...</p>}
@@ -47,7 +44,7 @@ const TrainCard = () => {
                 duration={train.duration}
                 price={train.price}
                 imageURL={train.imageURL}
-                onButtonClick={() => console.log(train)  }
+                onButtonClick={() => console.log(train.trainName)}
                 buttonText="Book Train"
               />
             </div>

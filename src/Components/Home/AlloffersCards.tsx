@@ -7,7 +7,6 @@ import TrainsCard from "../Pages/Trains/TrainCard";
 import CabCard from "../Pages/Cabs/CabCard";
 
 const AlloffersCards = () => {
-  // Create an array of card components
   const cardComponents = [
     <FLightcard key="flight" />,
     <HotelsCard key="hotel" />,
@@ -16,10 +15,9 @@ const AlloffersCards = () => {
     <CabCard key="cab" />,
   ];
 
-  // Map card components to a format compatible with the Carousel
   const carouselItems = cardComponents.map((card, index) => ({
     id: index,
-    image: "", // You can use placeholder images or remove if not needed
+    image: "",
     description: card,
   }));
 
@@ -28,7 +26,7 @@ const AlloffersCards = () => {
       <Carousel
         title="Our Offers"
         items={carouselItems}
-        visibleItems={3} // Adjust based on the number of visible items
+        visibleItems={3} 
       />
     </div>
   );

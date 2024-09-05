@@ -7,7 +7,7 @@ import TravelDropDown from "../../Helpers/DropDown";
 import SearchButton from "../../Helpers/SearchButton";
 import DestinationModule from "../../Helpers/Destination";
 import { StartModuleProps, DestinationModuleProps } from "./types";
-import { redirect, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 

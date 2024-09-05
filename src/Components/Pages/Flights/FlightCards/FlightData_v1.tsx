@@ -1,31 +1,32 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import FlightCard from "./FlightCard";
-// import { FlightCardProps } from "./type";
-import { AppDispatch, RootState } from "../../../../store";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchFlightData } from "../FlightSlice";
+import { FlightCardProps } from "./type";
 
 const FlightsCarousel: React.FC = () => {
+  const [flights, setFlights] = useState<FlightCardProps[]>([]);
+  const [error, setError] = useState<string | null>(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const FLIGHT_URL = "http://localhost:8003/flight";
   const visibleItems = 5;
   const itemWidth = 600;
   const itemGap = 16;
-  
-  const dispatch: AppDispatch = useDispatch();
 
-  
-  const { data: flights, error } = useSelector(
-    (state: RootState) => state.flights
-  );
-
-
-  console.log(flights)
-
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const fetchFlightsData = async () => {
+    try {
+      const response = await axios.get(FLIGHT_URL);
+      setFlights(response.data[0]?.data || []);
+      setError(null);
+    } catch (error) {
+      console.error("There is an error in the API", error);
+      setError("Unable to fetch flights data. Please try again later.");
+    }
+  };
 
   useEffect(() => {
-    dispatch(fetchFlightData());
-  }, [dispatch]);
+    fetchFlightsData();
+  }, []);
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) =>
@@ -39,12 +40,12 @@ const FlightsCarousel: React.FC = () => {
     );
   };
 
-
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="relative p-4 border max-w-6xl">
+      <div className="relative p-4 border  max-w-6xl">
         <div className="flex items-center justify-between mb-4">
-          <div className="flex space-x-2" style={{ marginLeft: "990px" }}>
+         
+          <div className="flex space-x-2 " style={{marginLeft:"990px"}}>
             <button
               onClick={handlePrev}
               className="bg-white text-blue-500 p-3 rounded-full border border-blue-500 focus:outline-none z-10 hover:opacity-70 transition-opacity duration-300"
@@ -64,12 +65,17 @@ const FlightsCarousel: React.FC = () => {
         {error && <p className="text-red-500">{error}</p>}
 
         <div className="relative w-full">
-          <div className="flex overflow-hidden" style={{ width: "100%" }}>
+          <div
+            className="flex overflow-hidden"
+            style={{ width: "100%" }}
+          >
             <div
               className="flex transition-transform duration-500 ease-in-out"
               style={{
                 width: `${(itemWidth + itemGap) * flights.length}px`,
-                transform: `translateX(-${currentIndex * (itemWidth + itemGap)}px)`,
+                transform: `translateX(-${
+                  currentIndex * (itemWidth + itemGap)
+                }px)`,
               }}
             >
               {flights.map((flight, index) => (
@@ -85,8 +91,9 @@ const FlightsCarousel: React.FC = () => {
                     arrival={flight.arrival}
                     airline={flight.airline}
                     flight={flight.flight}
-                    onButtonClick={() => console.log("hi your flight is booked")}
+                    onButtonClick={()=>console.log("hi your flight is booked")}
                     buttonText="Book Flight"
+                    
                   />
                 </div>
               ))}

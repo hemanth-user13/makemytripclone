@@ -15,7 +15,7 @@ import Navbar from "../Header/Navbar1";
 const MainPage = () => {
   return (
     <>
-    <Navbar/>
+    <Navbar />
       <div className="relative">
         <NavBar />
         
