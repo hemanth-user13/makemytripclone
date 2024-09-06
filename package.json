@@ -33,6 +33,7 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.26.1",
     "react-scroll-up": "^1.4.0",
+    "styled-components": "^6.1.13",
     "sweetalert2": "^11.13.1",
     "yup": "^1.4.0"
   },
