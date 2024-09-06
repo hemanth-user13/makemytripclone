@@ -1,54 +1,68 @@
-import React, { useEffect, useState } from "react";
-// import Card from "../../Helpers/OfferCard";
-import Card from './Cards/card'
-import axios from "axios"
-import { TrainDataProps } from "./type";
+import { useEffect, useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { fetchTrainData } from "./TrainSlice";
+import { RootState, AppDispatch } from "../../../store";
+import Card from "./Cards/card";
+import Navbar from '../../Header/test';
+import FilterSidebar from './FliterSideBar';
+import axios from "axios";
 
 const TrainCard = () => {
-  const [data,setData]=useState<TrainDataProps[]>([])
-  const [error,setError]=useState(null)
-  const TRAINDATURL="http://localhost:8003/trains"
-  const TrainApiCall=async()=>{
-   try {
-    const response=await axios.get(TRAINDATURL)
-    console.log("the train data is",response.data)
-    setData(response.data)
-    setError(null)
-   } catch (error) {
-    console.error("there is an error in the api",error)
-   }
-  }
+  const dispatch: AppDispatch = useDispatch();
+  const { data, loading, error } = useSelector((state: RootState) => state.trains);
+  const [filteredData, setFilteredData] = useState(data);
+  const [selectedTrain, setSelectedTrain] = useState<any>(null); // Adjust type as needed
 
-  useEffect(()=>{
-    TrainApiCall()
-  },[])
+  useEffect(() => {
+    dispatch(fetchTrainData());
+  }, [dispatch]);
 
-  const handleBookNowClick = () => {
-    console.log("railway button is clciked!");
+  useEffect(() => {
+    setFilteredData(data);
+  }, [data]);
+
+  const userID = localStorage.getItem("user_id");
+  // console.log("the userid from local is", userID);
+
+  const handleUserData = async () => {
+    if (selectedTrain && userID) {
+      const USERINTERACTION = "http://localhost:8003/userInteraction";
+      const result = { userID,...selectedTrain };
+      try {
+        const postResponse = await axios.post(USERINTERACTION, result);
+        console.log("Post response:", postResponse);
+      } catch (err) {
+        console.error("Error posting data:", err);
+      }
+    }
   };
 
-  
   return (
-    <div className="p">
-        {error && <p className="text-2xl">No Data</p>}
-      {data.map((train,index)=>(
-        <div key={index}>
-           <Card
-           trainName={train.trainName}
-           departure={train.departure}
-           arrival={train.arrival}
-           date={train.date}
-           duration={train.duration}
-           price={train.price}
-           imageURL={train.imageURL}
-          //  onButtonClick={handleBookNowClick}
-          //  buttonText="Book Train"
-           
-           />
-        
+    <div className="flex flex-col items-start p-4">
+      <Navbar />
+      <div className="flex mt-24">
+        <FilterSidebar />
+        <div className="flex-grow ml-8">
+          {loading && <p style={{ marginLeft: "480px" }}>Loading...</p>}
+          {error && <p className="text-2xl text-red-600" style={{ marginLeft: "480px" }}>No Data: {error}</p>}
+          {!loading && !error && filteredData.map((train) => (
+            <div key={train.id} className="my-4">
+              <Card
+                trainName={train.trainName}
+                departure={train.departure}
+                arrival={train.arrival}
+                date={train.date}
+                duration={train.duration}
+                price={train.price}
+                imageURL={train.imageURL}
+                onchange={() => setSelectedTrain(train)} 
+                onButtonClick={handleUserData}
+                buttonText="Book Train"
+              />
+            </div>
+          ))}
         </div>
-      ))}
-     
+      </div>
     </div>
   );
 };

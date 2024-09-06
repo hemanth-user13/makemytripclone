@@ -7342,6 +7342,7 @@
     },
     {
       "id": "c9b0",
+      "userID": "cc8aa8b7ceea5e9a68ed3757adae1703",
       "trainName": "Express Train 1",
       "departure": "New York",
       "arrival": "Chicago",
@@ -7349,18 +7350,29 @@
       "duration": "5h 30m",
       "price": "$120",
       "imageURL": "https://via.placeholder.com/150?text=Train1",
-      "userID": "cc8aa8b7ceea5e9a68ed3757adae1703"
+      "firstName": "bolgum",
+      "lastName": "hemanth goud",
+      "mobileNumber": "4848878787878787",
+      "email": "bolgum@omnics.in",
+      "address": "sddqdddqwdqdq",
+      "pincode": "500052"
     },
     {
-      "id": "1d54",
-      "userID": "cc8aa8b7ceea5e9a68ed3757adae1703",
-      "trainName": "Intercity Train 4",
-      "departure": "Philadelphia",
-      "arrival": "Washington",
-      "date": "2024-09-18",
-      "duration": "2h 50m",
-      "price": "$90",
-      "imageURL": "https://via.placeholder.com/150?text=Train4"
+      "id": "c9b0",
+      "userID": "fe1646366fe9ee6dc3f3b46868b31122",
+      "trainName": "Express Train 1",
+      "departure": "New York",
+      "arrival": "Chicago",
+      "date": "2024-09-15",
+      "duration": "5h 30m",
+      "price": "$120",
+      "imageURL": "https://via.placeholder.com/150?text=Train1",
+      "firstName": "pavan",
+      "lastName": "demo",
+      "mobileNumber": "4848878787878787",
+      "email": "test@gmail.com",
+      "address": "sddqdddqwdqdq",
+      "pincode": "500052"
     }
   ]
 }

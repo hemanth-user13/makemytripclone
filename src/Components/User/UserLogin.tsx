@@ -11,7 +11,7 @@ const UserLogin: React.FC = () => {
         const result = await fp.get();
         const visitorId: string = result.visitorId;
         localStorage.setItem("user_id", visitorId);
-        console.log("Visitor ID: ", visitorId);
+        // console.log("Visitor ID: ", visitorId);
       } catch (error) {
         console.error("Error loading FingerprintJS:", error);
       }

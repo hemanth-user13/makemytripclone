@@ -1,4 +1,27 @@
-.container{
-    margin-bottom:200px
-    
+
+/* @media screen and (max-width:1490px){
+    #cont-1{
+        position:absolute;
+        left:50px;
+    }
+} */
+
+@media screen and (max-width:1500px){
+    .container .cont-2{
+        width:100%;
+        position:absolute;
+        left:150px;
+        top:-150px
+    }
+}
+  
+
+
+@media screen and (min-width: 1800px) {
+   .container .cont-2{
+    width:100%;
+    position:absolute;
+    bottom:-210px;
+    left:370px
+   }
 }
