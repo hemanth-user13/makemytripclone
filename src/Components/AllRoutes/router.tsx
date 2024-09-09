@@ -9,7 +9,8 @@ import Cabs from "../Pages/Cabs/CabsLayout";
 import Insurance from "../Pages/TravelInsurance/TravelInsurance";
 import FlightPage from "../Pages/Flights/FlightPage";
 import TrainPage from '../Pages/Trains/TrainPage';
-import InsurancePage from '../other/Ondragndrop'
+import InsurancePage from '../other/Ondragndrop';
+import OnDrag from '../other/Ondragndrop'
 
 
 
@@ -29,6 +30,7 @@ function router() {
           <Route path="/cabs" element={<Cabs />} />
           <Route path="/insurance" element={<Insurance />} />
           <Route path="/ondragndrop" element={<InsurancePage/>}/>
+          <Route path="/ondrag" element={<OnDrag/>}/>
         </Routes>
       </BrowserRouter>
     </div>

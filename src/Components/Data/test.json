@@ -7373,6 +7373,23 @@
       "email": "test@gmail.com",
       "address": "sddqdddqwdqdq",
       "pincode": "500052"
+    },
+    {
+      "id": "c9b0",
+      "userID": "34211a59479ada02516846ec9a4c61ee",
+      "trainName": "Express Train 1",
+      "departure": "New York",
+      "arrival": "Chicago",
+      "date": "2024-09-15",
+      "duration": "5h 30m",
+      "price": "$120",
+      "imageURL": "https://via.placeholder.com/150?text=Train1",
+      "firstName": "bolgum",
+      "lastName": "hemanth goud",
+      "mobileNumber": "9652594864",
+      "email": "bolgum@omnics.in",
+      "address": "test",
+      "pincode": "6545545454554"
     }
   ]
 }
