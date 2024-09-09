@@ -30,3 +30,8 @@ export interface Coordinates {
   // export interface StateProps{
   //   date:string
   // }
+
+  const navigate = useNavigate()
+    const handleTrainSearch = () => {
+        navigate('/trainpage')
+    }

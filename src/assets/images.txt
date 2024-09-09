@@ -45,3 +45,12 @@ export default UserLogin;
 
 
  const result = flights[0]?.data || [];
+
+
+ticket booking modal
+ 1)firstname 
+ 2)lastname
+ 3)mobile number 
+ 4)email
+ 5)address 
+ 6)pincode
