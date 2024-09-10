@@ -7390,6 +7390,40 @@
       "email": "bolgum@omnics.in",
       "address": "test",
       "pincode": "6545545454554"
+    },
+    {
+      "id": "8957",
+      "userID": "cc8aa8b7ceea5e9a68ed3757adae1703",
+      "trainName": "Superfast Train 12",
+      "departure": "Los Angeles",
+      "arrival": "San Francisco",
+      "date": "2024-09-26",
+      "duration": "4h 45m",
+      "price": "$100",
+      "imageURL": "https://via.placeholder.com/150?text=Train12",
+      "firstName": "bolgum",
+      "lastName": "hemanth goud",
+      "mobileNumber": "9652594864",
+      "email": "bolgum@omnics.in",
+      "address": "Hayatnagar, Hyderabad , India",
+      "pincode": "500052"
+    },
+    {
+      "id": "7063",
+      "userID": "cc8aa8b7ceea5e9a68ed3757adae1703",
+      "trainName": "Superfast Train 2",
+      "departure": "Los Angeles",
+      "arrival": "San Francisco",
+      "date": "2024-09-16",
+      "duration": "4h 45m",
+      "price": "$100",
+      "imageURL": "https://via.placeholder.com/150?text=Train2",
+      "firstName": "bolgum",
+      "lastName": "hemanth goud",
+      "mobileNumber": "9652594864",
+      "email": "hbolgum@gitam.in",
+      "address": "Hayatnagar, Hyderabad , India",
+      "pincode": "500052"
     }
   ]
 }

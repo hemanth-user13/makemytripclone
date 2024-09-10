@@ -40,7 +40,7 @@ const TravellersClassSelector: React.FC<TravellersClassSelectorProps> = ({
                 onChange={onClassChange}
             >
                 {classOptions.map((option) => (
-                    <option key={option.value} value={option.value}>
+                    <option key={option?.value} value={option?.value}>
                         {option.label}
                     </option>
                 ))}

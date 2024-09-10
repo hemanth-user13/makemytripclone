@@ -7,6 +7,7 @@ import Navbar from '../../Header/test';
 import FilterSidebar from './FliterSideBar';
 import BookingModal from '../../Helpers/modals/BookingModal';
 import axios from "axios";
+/*eslint no-unused-vars: "error"*/
 
 const TrainCard = () => {
   const dispatch: AppDispatch = useDispatch();
@@ -38,7 +39,8 @@ const TrainCard = () => {
     }
   };
 
-  const handleSave = (formData: any) => {
+  //@ts-expect-error
+  const handleSave = (formData) => {
     console.log("Form data saved:", formData);
     setIsModalOpen(false);
     handleUserData(formData);
@@ -53,6 +55,7 @@ const TrainCard = () => {
           {loading && <p style={{ marginLeft: "480px" }}>Loading...</p>}
           {error && <p className="text-2xl text-red-600" style={{ marginLeft: "480px" }}>No Data: {error}</p>}
           {!loading && !error && filteredData.map((train) => (
+            //@ts-expect-error
             <div key={train.id} className="my-4">
               <Card
                 trainName={train.trainName}

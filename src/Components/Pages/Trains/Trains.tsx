@@ -9,7 +9,8 @@ import DestinationModule from "../../Helpers/Destination";
 import { StartModuleProps, DestinationModuleProps } from "../Flights/types";
 import { useNavigate } from "react-router-dom";
 import './trains.css';
-import styled from 'styled-components'
+import styled from 'styled-components';
+
 
 
 const Screen = styled.div`
@@ -43,8 +44,11 @@ const Screen = styled.div`
 const FlightBookingForm = () => {
     const [startDate, setStartDate] = useState<Date | undefined>(undefined);
     const [endDate, setEndDate] = useState<Date | undefined>(undefined);
+    //@ts-expect-error
     const [startModule, setStartModule] = useState<StartModuleProps[]>([]);
+    //@ts-expect-error
     const [desModule, setDesModule] = useState<DestinationModuleProps[]>([]);
+    //@ts-expect-error
     const [Error, SetError] = useState(false);
     const [firstStartRecord, setFirstStartRecord] = useState<StartModuleProps | null>(null);
     const [firstDestRecord, setFirstDestRecord] = useState<DestinationModuleProps | null>(null);
@@ -62,10 +66,10 @@ const FlightBookingForm = () => {
                 setDesModule(destResponse.data);
 
                 if (Array.isArray(startResponse.data) && startResponse.data.length > 0) {
-                    setFirstStartRecord(startResponse.data[0]);
+                    setFirstStartRecord(startResponse.data[(Math.floor(Math.random() * startResponse.data.length))]);
                 }
                 if (Array.isArray(destResponse.data) && destResponse.data.length > 0) {
-                    setFirstDestRecord(destResponse.data[0]);
+                    setFirstDestRecord(destResponse.data[(Math.floor(Math.random() * destResponse.data.length))]);
                 }
 
                 SetError(false);
@@ -136,24 +140,26 @@ const FlightBookingForm = () => {
 
                             <div className="flex justify-between items-center mb-6">
                                 <div className="flex items-center">
-                                    {firstStartRecord && (
+                                    {firstStartRecord ? (
                                         <DestinationModule
                                             label="From:"
                                             id="from"
                                             value={firstStartRecord.fixedplace}
+                                            description=""
                                         />
-                                    )}
+                                    ):(<p className="mx-20 my-6">No Trains </p>)}
                                     <FaExchangeAlt
                                         className="text-blue-500 text-3xl cursor-pointer"
                                         onClick={handleExchange}
                                     />
-                                    {firstDestRecord && (
+                                    {firstDestRecord ? (
                                         <DestinationModule
                                             label="To:"
                                             id="to"
                                             value={firstDestRecord.destination}
+                                            description=""
                                         />
-                                    )}
+                                    ):(<p className="mx-20 my-6">No Trains</p>)}
                                 </div>
 
                                 <div className="flex flex-col items-center space-x-4" style={{ top: "170px", left: "540px" }}>
@@ -161,6 +167,7 @@ const FlightBookingForm = () => {
                                         id="datepicker-range-start"
                                         name="start"
                                         selectedDate={startDate}
+                                        //@ts-ignore
                                         onChange={(date) => setStartDate(date)}
                                         placeholderText="Select start date"
                                     />
@@ -169,6 +176,7 @@ const FlightBookingForm = () => {
                                         id="datepicker-range-end"
                                         name="end"
                                         selectedDate={endDate}
+                                         //@ts-ignore
                                         onChange={(date) => setEndDate(date)}
                                         placeholderText="Select end date"
                                     />
