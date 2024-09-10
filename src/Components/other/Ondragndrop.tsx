@@ -83,7 +83,8 @@ function OnDrag() {
         const sourceColumnId = e.dataTransfer.getData("columnId");
 
         const taskToMove = columns[sourceColumnId].items.find(
-            (item) => item.id === parseInt(taskId)
+            (item) => item.id === parseInt(taskId),
+            console.log(taskId)
         );
 
         if (!taskToMove) return;

@@ -17,6 +17,7 @@ const FlightBookingForm = () => {
 
   const [startModule, setStartModule] = useState<StartModuleProps[]>([]);
   const [desModule, setDesModule] = useState<DestinationModuleProps[]>([]);
+ 
   const [Error, SetError] = useState(false);
 
   const [firstStartRecord, setFirstStartRecord] = useState<StartModuleProps | null>(null);
@@ -35,12 +36,11 @@ const FlightBookingForm = () => {
         setDesModule(destResponse.data);
 
         if (Array.isArray(startResponse.data) && startResponse.data.length > 0) {
-          setFirstStartRecord(startResponse.data[0]);
+          setFirstStartRecord(startResponse.data[(Math.floor(Math.random() * startResponse.data.length))]);
         }
         if (Array.isArray(destResponse.data) && destResponse.data.length > 0) {
-          setFirstDestRecord(destResponse.data[0]);
+          setFirstDestRecord(destResponse.data[(Math.floor(Math.random() * destResponse.data.length))]);
         }
-
         SetError(false);
       } catch (error) {
         console.error("There was an error fetching the modules", error);
@@ -58,7 +58,7 @@ const FlightBookingForm = () => {
 
       setFirstStartRecord({
         ...firstStartRecord,
-        fixedplace: firstDestRecord.destination,
+        fixedplace: firstDestRecord?.destination,
         description: firstDestRecord.description,
       });
 
@@ -111,26 +111,28 @@ const FlightBookingForm = () => {
 
         <div className="flex justify-between items-center mb-6">
           <div className="flex items-center">
-            {firstStartRecord && (
+            {firstStartRecord ?
+            (
               <DestinationModule
                 label="From:"
                 id="from"
                 value={firstStartRecord.fixedplace}
                 description={firstStartRecord.description}
               />
-            )}
+            ):(<p className="mx-20 my-6">No Flights </p>)
+            }
             <FaExchangeAlt
               className="text-blue-500 text-3xl cursor-pointer"
               onClick={handleExchange}
             />
-            {firstDestRecord && (
+            {firstDestRecord? (
               <DestinationModule
                 label="To:"
                 id="to"
                 value={firstDestRecord.destination}
                 description={firstDestRecord.description}
               />
-            )}
+            ):(<p className="mx-20 my-6">No Flights</p>)}
           </div>
 
           <div

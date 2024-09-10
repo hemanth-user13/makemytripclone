@@ -17,7 +17,7 @@ interface TrainState {
   loading: boolean;
   error: string | null;
 }
-
+ 
 const initialState: TrainState = {
   data: [],
   loading: false,
